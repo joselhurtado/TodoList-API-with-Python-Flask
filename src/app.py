@@ -18,6 +18,7 @@ def add_new_todo():
 @app.route('/todos/<int:position>', methods=['DELETE'])
 def delete_todo(position):
     print("This is the position to delete: ", position)
+    del todos[(position)]
     return 'something'
 
 # These two lines should always be at the end of your app.py file.
