@@ -19,7 +19,7 @@ def add_new_todo():
 def delete_todo(position):
     print("This is the position to delete: ", position)
     del todos[(position)]
-    return 'something'
+    return 'Item something'
 
 # These two lines should always be at the end of your app.py file.
 if __name__ == '__main__':
